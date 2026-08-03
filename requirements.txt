@@ -1,0 +1,12 @@
+numpy==2.2.6
+scipy==1.15.3
+pandas==2.3.3
+h5py==3.16.0
+networkx==3.4.2
+matplotlib==3.10.9
+openai==2.43.0
+PyYAML==6.0.3
+ncls==0.0.70
+pronto==2.7.3
+scikit-learn>=1.4
+

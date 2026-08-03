@@ -1,0 +1,7 @@
+model,baseline_missed,baseline_incomplete,baseline_auditable,ours_missed,ours_incomplete,ours_auditable,baseline_accuracy,ours_accuracy,n_true_doublets
+DeepSeek V4 Flash,30.0,16.7,53.3,5.8,7.5,86.7,79.6,85.4,120
+GPT-5.4 Mini,38.3,15.0,46.7,13.3,9.2,77.5,80.0,84.2,120
+Qwen 3.7 Plus,67.9,5.0,27.1,11.2,12.1,76.7,61.5,81.0,240
+GPT-5.6 Sol,41.7,11.7,46.7,7.5,6.7,85.8,76.7,86.7,120
+Gemini 3.5 Flash,39.2,15.0,45.8,5.8,6.7,87.5,75.4,85.8,120
+Claude Opus 4.8,55.8,10.0,34.2,50.8,10.8,38.3,70.0,72.1,120

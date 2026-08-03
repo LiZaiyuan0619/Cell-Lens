@@ -1,0 +1,77 @@
+{
+ "0": {
+  "protein_block": "CD4:3.2, CD3:3.0, CD45RO:2.2, CD127:0.4, CD15:0.3",
+  "n": 982,
+  "true_label": "Effector CD4+ T"
+ },
+ "1": {
+  "protein_block": "CD14:3.1, CD45RO:1.9, CD4:1.8, CD15:1.0, CD16:0.2, CD45RA:1.0",
+  "n": 884,
+  "true_label": "Monocytes"
+ },
+ "2": {
+  "protein_block": "CD8a:2.5, CD3:3.0, CD127:1.1, CD45RO:1.8, CD15:0.4, CD45RA:0.8",
+  "n": 582,
+  "true_label": "Effector CD8+ T"
+ },
+ "3": {
+  "protein_block": "CD19:1.5, CD45RA:4.4, CD15:0.9",
+  "n": 84,
+  "true_label": "B"
+ },
+ "4": {
+  "protein_block": "CD19:2.7, CD45RA:4.3, CD15:1.0",
+  "n": 542,
+  "true_label": "B"
+ },
+ "5": {
+  "protein_block": "CD3:3.4, CD8a:1.0, CD127:0.5, CD45RA:2.9, CD4:1.8, CD15:0.4",
+  "n": 835,
+  "true_label": "Naive CD4+ T"
+ },
+ "6": {
+  "protein_block": "CD14:1.3, CD16:1.2, CD4:2.4, CD45RA:2.4, CD45RO:0.9, CD15:0.8, CD3:0.0",
+  "n": 305,
+  "true_label": "Unassigned"
+ },
+ "7": {
+  "protein_block": "CD14:3.0, CD4:2.1, CD45RO:1.4, CD15:0.7, CD16:0.3, CD45RA:1.8",
+  "n": 810,
+  "true_label": "Monocytes"
+ },
+ "8": {
+  "protein_block": "CD16:3.0, CD56:2.0, CD45RA:4.4, CD15:0.7",
+  "n": 860,
+  "true_label": "NK"
+ },
+ "9": {
+  "protein_block": "CD16:1.3, CD8a:0.7, CD15:1.0, CD3:1.8, CD45RO:1.0, CD45RA:1.6, CD4:0.6",
+  "n": 139,
+  "true_label": "Effector CD4+ T"
+ },
+ "10": {
+  "protein_block": "CD16:0.9, CD15:0.9, CD45RO:0.6, CD45RA:1.9, CD3:0.9, CD4:0.5",
+  "n": 106,
+  "true_label": "NK"
+ },
+ "11": {
+  "protein_block": "CD3:3.1, CD4:2.5, CD45RO:1.9, CD15:0.2, CD45RA:0.8",
+  "n": 115,
+  "true_label": "Effector CD4+ T"
+ },
+ "12": {
+  "protein_block": "CD3:3.6, CD4:3.0, CD127:0.4, CD45RA:3.0, CD15:0.5",
+  "n": 947,
+  "true_label": "Naive CD4+ T"
+ },
+ "13": {
+  "protein_block": "CD14:3.0, CD45RO:2.0, CD15:1.2, CD16:0.6, CD4:1.5, CD45RA:0.5",
+  "n": 211,
+  "true_label": "Monocytes"
+ },
+ "14": {
+  "protein_block": "CD8a:2.3, CD3:2.5, CD45RO:1.1, CD16:0.1, CD15:0.3, CD45RA:1.8",
+  "n": 463,
+  "true_label": "Effector CD8+ T"
+ }
+}

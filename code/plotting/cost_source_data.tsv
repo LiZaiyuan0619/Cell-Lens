@@ -1,0 +1,9 @@
+model	condition	accuracy_pct	reasoning_tokens	input_output_tokens	total_tokens
+Qwen 3.7 Plus	Baseline	53.2	2263	1191	3454
+Qwen 3.7 Plus	Ours	72.1	1626	1627	3253
+DeepSeek V4 Flash	Baseline	54.3	1938.671	790.957	2729.629
+DeepSeek V4 Flash	Ours	70.7	1507.436	1116.700	2624.136
+DeepSeek V4 Pro	Baseline	42.1	2331	780	3111
+DeepSeek V4 Pro	Ours	70.0	1683	1110	2793
+Gemini 3.5 Flash	Baseline	62.1	1888	876	2764
+Gemini 3.5 Flash	Ours	78.6	1298	1179	2477

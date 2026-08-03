@@ -1,0 +1,35 @@
+panel	item	series	value	unit
+a	CD8A (CD8 T)	RNA cell-sentence	7	percent_visible
+a	CD8A (CD8 T)	protein	98	percent_visible
+a	MS4A1 (B)	RNA cell-sentence	60	percent_visible
+a	MS4A1 (B)	protein	100	percent_visible
+a	NKG7 (NK)	RNA cell-sentence	81	percent_visible
+a	NKG7 (NK)	protein	95	percent_visible
+a	CD14 (Mono)	RNA cell-sentence	36	percent_visible
+a	CD14 (Mono)	protein	100	percent_visible
+b	Naive CD8 T	marker_visibility	7	percent
+b	Naive CD8 T	ours_gain	71.6	percentage_points
+b	Eff CD8 T	marker_visibility	9	percent
+b	Eff CD8 T	ours_gain	17.8	percentage_points
+b	Eff CD4 T	marker_visibility	0	percent
+b	Eff CD4 T	ours_gain	52.1	percentage_points
+b	Naive CD4 T	marker_visibility	0	percent
+b	Naive CD4 T	ours_gain	7.7	percentage_points
+b	NK	marker_visibility	81	percent
+b	NK	ours_gain	13.5	percentage_points
+b	B	marker_visibility	60	percent
+b	B	ours_gain	-2.5	percentage_points
+b	Mono	marker_visibility	36	percent
+b	Mono	ours_gain	-15.8	percentage_points
+c	GPT-5.4 Mini	buried_program_gain	1.7	percentage_points
+c	GPT-5.4 Mini	readable_program_gain	-5.3	percentage_points
+c	Qwen 3.7 Plus	buried_program_gain	6.0	percentage_points
+c	Qwen 3.7 Plus	readable_program_gain	-1.6	percentage_points
+c	DeepSeek V4 Flash	buried_program_gain	9.2	percentage_points
+c	DeepSeek V4 Flash	readable_program_gain	-2.3	percentage_points
+c	Gemini 3.5 Flash	buried_program_gain	10.0	percentage_points
+c	Gemini 3.5 Flash	readable_program_gain	-12.6	percentage_points
+c	GPT-5.6 Sol	buried_program_gain	5.9	percentage_points
+c	GPT-5.6 Sol	readable_program_gain	-9.0	percentage_points
+c	Claude Opus 4.8	buried_program_gain	6.7	percentage_points
+c	Claude Opus 4.8	readable_program_gain	-10.6	percentage_points

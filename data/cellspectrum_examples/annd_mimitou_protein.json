@@ -1,0 +1,77 @@
+{
+ "0": {
+  "protein_block": "CD11c:0.1, HLA.DR:0.9, CD86:0.3, CD141:0.2, CD63:0.4, CD172a:0.6, CD123:0.1, CD39:0.4",
+  "n": 231,
+  "true_label": "Naive CD4+ T"
+ },
+ "1": {
+  "protein_block": "CD4.1:4.7, CD4.2:1.1, CD109:2.0, CD307e:1.2, CD3.2:2.6, CD26:1.5, CD106:0.5, CD27:2.6",
+  "n": 94,
+  "true_label": "Naive CD4+ T"
+ },
+ "2": {
+  "protein_block": "HLA.DR:3.3, CD86:2.4, CD275.2:2.4, CD123:1.8, CD54:2.2, CD141:1.6, CD71:2.6, CD39:1.5",
+  "n": 89,
+  "true_label": "Unassigned"
+ },
+ "3": {
+  "protein_block": "CD16:2.5, CD244:2.9, CD56.NCAM.Recombinant:2.4, CD335:1.6, CD56.NCAM.:1.6, CD43:2.9, CD158e1:2.3, CD337:0.8",
+  "n": 458,
+  "true_label": "NK"
+ },
+ "4": {
+  "protein_block": "CD4.1:4.6, CD27:2.9, CD3.2:2.8, CD4.2:1.1, CD28:2.4, CD3.1:2.8, CD278:2.3, CD109:2.0",
+  "n": 660,
+  "true_label": "Naive CD4+ T"
+ },
+ "5": {
+  "protein_block": "CD3.2:2.8, CD3.1:2.8, CD27:2.8, CD4.1:4.1, CD28:2.3, CD278:2.2, CD45RB:2.2, CD55:2.3",
+  "n": 923,
+  "true_label": "Naive CD4+ T"
+ },
+ "6": {
+  "protein_block": "CD22:3.3, CD71:4.0, CD21:2.0, HLA.DR:3.2, CD72:2.4, CD19:3.3, CD69:2.5, CD35:3.7",
+  "n": 102,
+  "true_label": "B"
+ },
+ "7": {
+  "protein_block": "CD13:3.1, CD86:2.3, CLEC12A:1.5, CD54:2.5, CD39:2.2, CD11c:1.8, CD172a:2.4, CD304:1.8",
+  "n": 265,
+  "true_label": "Monocytes"
+ },
+ "8": {
+  "protein_block": "CD45RO:1.4, CD4.1:4.5, CD127:2.6, CD28:2.4, CD2:2.9, CD26:1.6, CD4.2:1.0, CD109:2.0",
+  "n": 577,
+  "true_label": "Effector CD4+ T"
+ },
+ "9": {
+  "protein_block": "CD13:3.6, CD304:2.5, CD54:2.9, CLEC12A:1.8, CD172a:2.9, CD11c:2.3, CD11b.2:2.3, CD39:2.6",
+  "n": 179,
+  "true_label": "Monocytes"
+ },
+ "10": {
+  "protein_block": "CD22:3.9, CD72:3.5, CD21:2.9, CD19:4.0, HLA.DR:3.4, CD268:2.8, CD35:4.1, CD20:2.2",
+  "n": 272,
+  "true_label": "B"
+ },
+ "11": {
+  "protein_block": "CD105:0.9, CD79b:0.2, Rat_IgG1l_IsotypeCtrl:0.0, CD357:0.1, CD25:0.9, CD79a:0.1, CD11b.1:0.3, CD223:0.1",
+  "n": 79,
+  "true_label": "Unassigned"
+ },
+ "12": {
+  "protein_block": "CD27:3.0, CD3.2:2.8, CD3.1:2.8, TCRab:1.5, CD45RA:1.5, CD28:2.3, CD4.1:4.0, CD55:2.3",
+  "n": 872,
+  "true_label": "Naive CD4+ T"
+ },
+ "13": {
+  "protein_block": "CD45RO:1.6, CD4.1:4.6, CD95:1.6, CD26:1.8, CD25:1.5, CD2:2.9, CD4.2:1.1, CD71:1.6",
+  "n": 343,
+  "true_label": "Effector CD4+ T"
+ },
+ "14": {
+  "protein_block": "CD8a:3.8, CD8:2.4, CD244:1.5, CD279:1.3, TCR_V_2:0.5, CD57_Recombinant:0.8, CD43:2.3, CD18:2.7",
+  "n": 383,
+  "true_label": "Effector CD8+ T"
+ }
+}

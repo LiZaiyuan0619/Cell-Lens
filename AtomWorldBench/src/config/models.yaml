@@ -1,0 +1,254 @@
+qwen25_32b:
+  class: OpenAIModel
+  model_name: Qwen/Qwen2.5-32B-Instruct
+  api_key: ${LLM_API_KEY}
+  base_url: https://api.example.com/v1
+  temperature: 1.0
+  max_tokens: 8192
+qwen3_32b_api:
+  class: OpenAIModel
+  model_name: Qwen/Qwen3-32B
+  api_key: ${LLM_API_KEY}
+  base_url: https://api.example.com/v1
+  temperature: 1.0
+  max_tokens: 16384
+deepseek_v4_flash:
+  class: OpenAIModel
+  model_name: deepseek-v4-flash
+  api_key: ${LLM_API_KEY}
+  base_url: https://api.deepseek.com
+  temperature: 1.0
+  max_tokens: 16384
+deepseek_v4_pro:
+  class: OpenAIModel
+  model_name: deepseek-v4-pro
+  api_key: ${LLM_API_KEY}
+  base_url: https://api.deepseek.com/v1
+  temperature: 1.0
+  max_tokens: 16384
+qwen37_max:
+  class: OpenAIModel
+  model_name: qwen3.7-max-2026-05-20
+  api_key: ${LLM_API_KEY}
+  base_url: https://api.example.com/v1
+  temperature: 1.0
+  max_tokens: 16384
+deepseek_chat:
+  class: OpenAIModel
+  model_name: deepseek-chat
+  api_key: ${LLM_API_KEY}
+  base_url: https://api.deepseek.com/v1
+  temperature: 1.0
+  max_tokens: 8192
+deepseek_reasoner:
+  class: OpenAIModel
+  model_name: deepseek-reasoner
+  api_key: ${LLM_API_KEY}
+  base_url: https://api.deepseek.com/v1
+  temperature: 1.0
+gpt_4o:
+  class: OpenAIModel
+  model_name: gpt-4o
+  api_key: ${LLM_API_KEY}
+  base_url: https://api.openai.com/v1
+  temperature: 1.0
+azure_openai_example:
+  class: AzureOpenAIModel
+  model_name: ${AZURE_OPENAI_MODEL}
+  api_key: ${LLM_API_KEY}
+  api_version: ${AZURE_OPENAI_API_VERSION}
+  azure_endpoint: ${AZURE_ENDPOINT}
+  temperature: 1.0
+grok_4_offline:
+  class: OpenAIModel
+  model_name: grok-4
+  api_key: ${LLM_API_KEY}
+  base_url: https://api.x.ai/v1
+  temperature: 1.0
+naturelm:
+  class: vllmModel
+  model_name: microsoft/NatureLM-8x7B-Inst
+  device: cuda
+  temperature: 1.0
+llama3_70B:
+  class: vllmModel
+  model_name: meta-llama/Llama-3.3-70B-Instruct
+  device: cuda
+  temperature: 1.0
+qwen3_06B:
+  class: vllmModel
+  model_name: Qwen/Qwen3-0.6B
+  device: cuda
+  temperature: 1.0
+qwen3_1_7B:
+  class: vllmModel
+  model_name: Qwen/Qwen3-1.7B
+  device: cuda
+  temperature: 1.0
+qwen3_4B:
+  class: vllmModel
+  model_name: Qwen/Qwen3-4B
+  device: cuda
+  temperature: 1.0
+qwen3_8B:
+  class: vllmModel
+  model_name: Qwen/Qwen3-8B
+  device: cuda
+  temperature: 1.0
+qwen3_14B:
+  class: vllmModel
+  model_name: Qwen/Qwen3-14B
+  device: cuda
+  temperature: 1.0
+qwen3_32B:
+  class: vllmModel
+  model_name: Qwen/Qwen3-32B
+  device: cuda
+  temperature: 1.0
+gpt54_mini:
+  class: OpenAIModel
+  model_name: gpt-5.4-mini
+  api_key: ${LLM_API_KEY}
+  base_url: https://api.example.com/v1
+  temperature: 1.0
+  max_tokens: 16384
+gemini35_flash:
+  class: OpenAIModel
+  model_name: gemini-3.5-flash
+  api_key: ${LLM_API_KEY}
+  base_url: https://api.example.com/v1
+  temperature: 1.0
+  max_tokens: 16384
+qwen36_flash:
+  class: OpenAIModel
+  model_name: qwen3.6-flash
+  api_key: ${LLM_API_KEY}
+  base_url: https://api.example.com/v1
+  temperature: 1.0
+  max_tokens: 16384
+qwen37_plus:
+  class: OpenAIModel
+  model_name: qwen3.7-plus
+  api_key: ${LLM_API_KEY}
+  base_url: https://api.example.com/v1
+  temperature: 1.0
+  max_tokens: 16384
+qwen35_397b:
+  class: OpenAIModel
+  model_name: qwen3.5-397b-a17b
+  api_key: ${LLM_API_KEY}
+  base_url: https://api.example.com/v1
+  temperature: 1.0
+  max_tokens: 16384
+claude_haiku:
+  class: OpenAIModel
+  model_name: claude-haiku-4-5-20251001
+  api_key: ${LLM_API_KEY}
+  base_url: https://api.example.com/v1
+  temperature: 1.0
+  max_tokens: 16384
+gpt56_terra:
+  class: OpenAIModel
+  model_name: gpt-5.6-terra
+  api_key: ${LLM_API_KEY}
+  base_url: https://api.example.com/v1
+  temperature: 1.0
+  max_tokens: 16384
+claude_sonnet5:
+  class: OpenAIModel
+  model_name: claude-sonnet-5
+  api_key: ${LLM_API_KEY}
+  base_url: https://api.example.com/v1
+  temperature: 1.0
+  max_tokens: 16384
+grok43:
+  class: OpenAIModel
+  model_name: grok-4.5
+  api_key: ${LLM_API_KEY}
+  base_url: https://api.example.com/v1
+  temperature: 1.0
+  max_tokens: 16384
+gemini35_flash_alt:
+  class: OpenAIModel
+  model_name: gemini-3.5-flash
+  api_key: ${LLM_API_KEY}
+  base_url: https://api.example.com/v1
+  temperature: 1.0
+  max_tokens: 16384
+gemini31_flash_lite:
+  class: OpenAIModel
+  model_name: gemini-3.1-flash-lite
+  api_key: ${LLM_API_KEY}
+  base_url: https://api.example.com/v1
+  temperature: 1.0
+  max_tokens: 16384
+claude_sonnet5_endpoint3:
+  class: OpenAIModel
+  model_name: claude-sonnet-5
+  api_key: ${LLM_API_KEY}
+  base_url: https://api.example.com/v1
+  temperature: 1.0
+  max_tokens: 16384
+claude_sonnet46_think_endpoint3:
+  class: OpenAIModel
+  model_name: claude-sonnet-4-6-thinking
+  api_key: ${LLM_API_KEY}
+  base_url: https://api.example.com/v1
+  temperature: 1.0
+  max_tokens: 16384
+claude_sonnet46_endpoint3:
+  class: OpenAIModel
+  model_name: claude-sonnet-4-6
+  api_key: ${LLM_API_KEY}
+  base_url: https://api.example.com/v1
+  temperature: 1.0
+  max_tokens: 16384
+gpt56_sol:
+  class: OpenAIModel
+  model_name: gpt-5.6-sol
+  api_key: ${LLM_API_KEY}
+  base_url: https://api.example.com/v1
+  temperature: 1.0
+  max_tokens: 16384
+gpt55:
+  class: OpenAIModel
+  model_name: gpt-5.5
+  api_key: ${LLM_API_KEY}
+  base_url: https://api.example.com/v1
+  temperature: 1.0
+  max_tokens: 16384
+claude_sonnet46_alt:
+  class: OpenAIModel
+  model_name: claude-sonnet-4-6
+  api_key: ${LLM_API_KEY}
+  base_url: https://api.example.com/v1
+  temperature: 1.0
+  max_tokens: 16384
+gemini3flash_alt:
+  class: OpenAIModel
+  model_name: gemini-3-flash
+  api_key: ${LLM_API_KEY}
+  base_url: https://api.example.com/v1
+  temperature: 1.0
+  max_tokens: 16384
+gemini31pro_alt:
+  class: OpenAIModel
+  model_name: gemini-3.1-pro-preview
+  api_key: ${LLM_API_KEY}
+  base_url: https://api.example.com/v1
+  temperature: 1.0
+  max_tokens: 16384
+kimi_k26:
+  class: OpenAIModel
+  model_name: kimi-k2.6
+  api_key: ${LLM_API_KEY}
+  base_url: https://api.example.com/v1
+  temperature: 1.0
+  max_tokens: 16384
+glm52:
+  class: OpenAIModel
+  model_name: glm-5.2
+  api_key: ${LLM_API_KEY}
+  base_url: https://api.example.com/v1
+  temperature: 1.0
+  max_tokens: 16384
