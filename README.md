@@ -1,7 +1,7 @@
 # Cell-Lens
 
 This repository contains the code and processed data accompanying the paper
-*Cell-Lens: Advancing LLM Reasoning at Single-Cell Resolution*.
+*Cell-Lens: Advancing LLM Reasoning at Single-Cell Resolution*(https://www.biorxiv.org/content/10.64898/2026.09.19.752842v1.full).
 
 Cell-Lens is a training-free structured representation that exposes measured
 single-cell modalities to large language models as typed text blocks.
